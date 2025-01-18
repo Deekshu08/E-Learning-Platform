@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: azure;
+  font-family: 'Montserrat', 'Poppins', 'Inter', sans-serif;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:azure;
+  padding-inline: 100px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.profile img {
+  height: 280px;
+}
+
+.username {
+  text-align: center;
+  margin: 10px;
+}
+
+.username h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.username h3 {
+  text-align: center;
+  font-weight: 550;
+}
+
+.setting button {
+  border: 0px;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+}

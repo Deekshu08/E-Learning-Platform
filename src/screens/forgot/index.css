@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: azure;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.sign-in {
+  font-size: 14px;
+  display: flex;
+}

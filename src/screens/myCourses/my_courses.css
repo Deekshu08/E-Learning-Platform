@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', 'Poppins', 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+.course {
+  margin-top: 100px;
+  width: 550px;
+  padding: 25px;
+  max-width: 90%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.course img {
+  height: 300px;
+}
+
+.course h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: azure;
+}
+
+input {
+  margin: 5px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-style: 24px;
+}
+
+.sign-in {
+  font-size: 14px;
+  display: flex;
+}
+
+.sign {
+  color: #47b3f6;
+}
